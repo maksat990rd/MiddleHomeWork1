@@ -39,7 +39,7 @@ public class Driver {
     public void setTruck(Truck truck) {
         this.truck = truck;
     }
-    public boolean hasDrive(){
+    public boolean hasTruck(){
         return this.truck != null;
     }
 }
