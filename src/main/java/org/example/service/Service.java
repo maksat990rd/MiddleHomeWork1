@@ -9,7 +9,7 @@ import org.example.repository.DaoTruck;
 import org.example.state.State;
 import org.example.tdo.DriverTdo;
 import org.example.tdo.DriverWithOutTruck;
-import org.example.tdo.TruckDto;
+import org.example.tdo.TruckTdo;
 import org.example.tdo.TruckWithOutDriver;
 
 import java.io.IOException;
@@ -109,10 +109,10 @@ public class Service {
         return new DriverWithOutTruck(driver.getId(), driver.getName());
     }
 
-    private Map<Integer, TruckDto> truckMap() {
-        Map<Integer, TruckDto> truckMap1 = new HashMap<>();
+    private Map<Integer, TruckTdo> truckMap() {
+        Map<Integer, TruckTdo> truckMap1 = new HashMap<>();
         daoTruck.getTruckMap().forEach((key, value) -> {
-            truckMap1.put(key, new TruckDto(value.getId(),
+            truckMap1.put(key, new TruckTdo(value.getId(),
                     value.getName(),
                     value.hasDrive() ? convert(value.getDriver()) : null,
                     value.getState()));

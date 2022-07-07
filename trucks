@@ -3,29 +3,27 @@
     "id": 1,
     "name": "Kamaz",
     "driver": {
-      "id": 3,
-      "name": "Bayel"
-    },
-    "state": "BASE"
-  },
-  "2": {
-    "id": 2,
-    "name": "Bilaz",
-    "driver": {
       "id": 1,
       "name": "Azamat"
     },
     "state": "ROUTE"
   },
-  "3": {
-    "id": 3,
-    "name": "Volvo",
+  "2": {
+    "id": 2,
+    "name": "Bilaz",
     "driver": {
       "id": 3,
       "name": "Bayel"
     },
+    "state": "REPAIR"
+  },
+  "3": {
+    "id": 3,
+    "name": "Volvo",
+    "driver": {
+      "id": 2,
+      "name": "Nursultan"
+    },
     "state": "BASE"
   }
-} }
-}
 }}

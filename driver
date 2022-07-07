@@ -3,8 +3,8 @@
     "id": 1,
     "name": "Azamat",
     "truck": {
-      "id": 2,
-      "name": "Bilaz",
+      "id": 1,
+      "name": "Kamaz",
       "state": "ROUTE"
     }
   },
@@ -21,10 +21,9 @@
     "id": 3,
     "name": "Bayel",
     "truck": {
-      "id": 3,
-      "name": "Volvo",
-      "state": "BASE"
+      "id": 2,
+      "name": "Bilaz",
+      "state": "REPAIR"
     }
   }
-}
 }}
