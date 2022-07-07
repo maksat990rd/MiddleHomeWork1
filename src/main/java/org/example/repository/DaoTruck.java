@@ -48,7 +48,7 @@ public class DaoTruck {
         for (Map.Entry<Integer, Truck> t : truckMap.entrySet()) {
             if (t.getKey() == id) {
                 if (t.getValue().getState().equals(State.ROUTE)) {
-                    System.err.println("The truck is on its way");
+                    System.err.println("The truck is on the way");
                 } else {
                     if (t.getValue().getDriver() == null) {
                         System.err.println("NO DRIVER");
@@ -76,14 +76,14 @@ public class DaoTruck {
 
     public void show() {
         System.out.println("""
-                 #     | Bus            | Driver   | State
+                 #     | Truck            | Driver   | State
                 -------+----------------+----------+--------------""");
         for (Map.Entry<Integer, Truck> entry : truckMap.entrySet()) {
             Integer key = entry.getKey();
             Truck value = entry.getValue();
             try {
                 System.out.printf("""
-                                -%d-    |  %s         | %s | %s            """, key, value.getName(),
+                                -%d-    |  %s         | %s        | %s            """, key, value.getName(),
                         value.getDriver().getName(), value.getState() + "\n");
             } catch (NullPointerException e) {
                 System.out.printf("""

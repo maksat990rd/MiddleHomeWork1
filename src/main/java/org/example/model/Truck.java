@@ -11,10 +11,9 @@ public class Truck {
     public Truck() {
     }
 
-    public Truck(int id, String name, Driver driver, State state) {
+    public Truck(int id, String name, State state) {
         this.id = id;
         this.name = name;
-        this.driver = driver;
         this.state = state;
     }
 

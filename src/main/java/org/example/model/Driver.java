@@ -10,10 +10,9 @@ public class Driver {
     public Driver() {
     }
 
-    public Driver(int id, String name, Truck truck) {
+    public Driver(int id, String name) {
         this.id = id;
         this.name = name;
-        this.truck = truck;
     }
 
     public int getId() {
