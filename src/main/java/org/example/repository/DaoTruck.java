@@ -77,7 +77,7 @@ public class DaoTruck {
     public void show() {
         System.out.println("""
                  #     | Truck            | Driver   | State
-                -------+----------------+----------+--------------""");
+                -------+------------------+----------+--------------""");
         for (Map.Entry<Integer, Truck> entry : truckMap.entrySet()) {
             Integer key = entry.getKey();
             Truck value = entry.getValue();

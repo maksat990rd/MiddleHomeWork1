@@ -1,29 +1,29 @@
 {
   "1": {
     "id": 1,
-    "name": "Azamat",
-    "truck": {
-      "id": 1,
-      "name": "Kamaz",
-      "state": "ROUTE"
-    }
-  },
-  "2": {
-    "id": 2,
-    "name": "Nursultan",
+    "name": "Azamat   ",
     "truck": {
       "id": 3,
       "name": "Volvo",
       "state": "BASE"
     }
   },
+  "2": {
+    "id": 2,
+    "name": "Nursultan",
+    "truck": {
+      "id": 1,
+      "name": "Kamaz",
+      "state": "BASE"
+    }
+  },
   "3": {
     "id": 3,
-    "name": "Bayel",
+    "name": "Bayel    ",
     "truck": {
       "id": 2,
       "name": "Bilaz",
-      "state": "REPAIR"
+      "state": "BASE"
     }
   }
-}}
+}

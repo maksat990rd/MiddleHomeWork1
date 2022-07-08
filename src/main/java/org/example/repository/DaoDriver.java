@@ -31,8 +31,8 @@ public class DaoDriver {
 
     public void show() {
         System.out.println("""
-                 #     | Driver         | Bus      
-                -------+----------------+--------------""");
+                 #     | Driver          | Truck     
+                -------+-----------------+--------------""");
         for (Map.Entry<Integer, Driver> entry : driverMap.entrySet()) {
             Integer key = entry.getKey();
             Driver value = entry.getValue();

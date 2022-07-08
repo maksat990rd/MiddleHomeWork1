@@ -16,9 +16,9 @@ public class Main {
         Truck truck2 = new Truck(2, "Bilaz", State.BASE);
         Truck truck3 = new Truck(3, "Volvo", State.BASE);
 
-        Driver driver1 = new Driver(1, "Azamat");
+        Driver driver1 = new Driver(1, "Azamat   ");
         Driver driver2 = new Driver(2, "Nursultan");
-        Driver driver3 = new Driver(3, "Bayel");
+        Driver driver3 = new Driver(3, "Bayel    ");
 
         Service service = new Service();
 
@@ -60,11 +60,11 @@ public class Main {
     }
     public static void chooseAnAction() {
         System.out.println();
-        System.out.println("choose an Action");
+        System.out.println("===Choose an Action====");
         System.out.println(" * 1: choose the driver");
-        System.out.println(" * 2: start driving");
-        System.out.println(" * 3: start repairing");
-        System.out.println(" * 4: send to the Base");
+        System.out.println(" * 2: start driving    ");
+        System.out.println(" * 3: start repairing  ");
+        System.out.println(" * 4: send to the Base ");
     }
 
     public static void chooseAnActionTruck() {}
