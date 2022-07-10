@@ -6,7 +6,7 @@
       "id": 2,
       "name": "Nursultan"
     },
-    "state": "BASE"
+    "state": "ROUTE"
   },
   "2": {
     "id": 2,
@@ -15,7 +15,7 @@
       "id": 3,
       "name": "Bayel    "
     },
-    "state": "BASE"
+    "state": "REPAIR"
   },
   "3": {
     "id": 3,
@@ -24,6 +24,7 @@
       "id": 1,
       "name": "Azamat   "
     },
-    "state": "BASE"
+    "state": "ROUTE"
   }
+}
 }

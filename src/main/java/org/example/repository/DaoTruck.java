@@ -83,7 +83,7 @@ public class DaoTruck {
             Truck value = entry.getValue();
             try {
                 System.out.printf("""
-                                -%d-    |  %s         | %s        | %s            """, key, value.getName(),
+                                -%d-     |  %s         | %s        | %s            """, key, value.getName(),
                         value.getDriver().getName(), value.getState() + "\n");
             } catch (NullPointerException e) {
                 System.out.printf("""

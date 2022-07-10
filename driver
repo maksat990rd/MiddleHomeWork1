@@ -5,7 +5,7 @@
     "truck": {
       "id": 3,
       "name": "Volvo",
-      "state": "BASE"
+      "state": "ROUTE"
     }
   },
   "2": {
@@ -14,7 +14,7 @@
     "truck": {
       "id": 1,
       "name": "Kamaz",
-      "state": "BASE"
+      "state": "ROUTE"
     }
   },
   "3": {
@@ -23,7 +23,8 @@
     "truck": {
       "id": 2,
       "name": "Bilaz",
-      "state": "BASE"
+      "state": "REPAIR"
     }
   }
+}
 }

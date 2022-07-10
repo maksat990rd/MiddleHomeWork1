@@ -43,7 +43,7 @@ public class Service {
         for (Map.Entry<Integer,Truck>e:daoTruck.getTruckMap().entrySet()){
             if(e.getValue().getState().equals(State.BASE)){
                 daoDriver.show();
-                System.out.print("Driver change driver: ");
+                System.out.print(" Change the driver: ");
                 int driver = scanner.nextInt();
                 changeDriver(truck, driver);
                 break;
