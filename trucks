@@ -3,20 +3,22 @@
     "id": 1,
     "name": "Kamaz",
     "driver": {
-      "id": 3,
-      "name": "Bayel"
+      "id": 2,
+      "name": "Nursultan"
     },
-    "state": "BASE"
+    "state": "ROUTE"
   },
   "2": {
     "id": 2,
     "name": "Bilaz",
-    "driver": {
-      "id": 1,
-      "name": "Azamat"
-    },
-    "state": "ROUTE"
+    "state": "REPAIR"
   },
+  "3": {
+    "id": 3,
+    "name": "Volvo",
+    "state": "BASE"
+  }
+}  },
   "3": {
     "id": 3,
     "name": "Volvo",
